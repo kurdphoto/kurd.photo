@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.icon{
+    width: 100PX;
+    float: left;
+    height: 60px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.black{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr
+    ));
+    grid-gap: 30px;
+}
+.black img{
+    width: 100%;
+    cursor: pointer;
+    margin-top: 60px;
+}
